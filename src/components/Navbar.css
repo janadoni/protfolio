@@ -85,6 +85,12 @@
   width: 90%;
   padding: 1rem;
   border-radius: 12px;
+  background: rgba(17, 17, 17, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  z-index: 1001;
 }
 
 .mobile-nav-list {
