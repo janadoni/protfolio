@@ -1,0 +1,82 @@
+.edu-cert-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.title-icon {
+  color: var(--accent-blue);
+}
+
+.edu-card {
+  padding: 2.5rem;
+}
+
+.degree {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.major {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.university {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  border-top: 1px solid var(--glass-border);
+  padding-top: 1rem;
+}
+
+.edu-year {
+  font-weight: 600;
+  color: var(--accent-purple);
+}
+
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  cursor: default;
+}
+
+.cert-icon {
+  color: var(--accent-blue);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .edu-cert-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
